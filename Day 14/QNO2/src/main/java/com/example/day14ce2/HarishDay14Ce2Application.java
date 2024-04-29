@@ -1,0 +1,33 @@
+package com.example.day14ce2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Contact;
+import io.swagger.v3.oas.annotations.info.Info;
+
+
+@OpenAPIDefinition(
+		info =@Info(
+				title = "Book",
+				version = "1.1.2",
+				description = "Book Details",
+				contact = @Contact
+				(
+						name = "HARISH S",
+						email = "727722EUCS066@SKCET.AC.IN"
+						)
+				)
+		)
+
+
+
+@SpringBootApplication
+public class HarishDay14Ce2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HarishDay14Ce2Application.class, args);
+	}
+
+}
